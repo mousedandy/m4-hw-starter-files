@@ -1,0 +1,171 @@
+/* ---------- CSS Variables ---------- */
+:root{
+    /* Color theme taken from  Adobe Color */
+    /* Color Theme Swatches in Hex */
+    --cream: #EEF2F0;
+    --dk-blue: #64A0A9; 
+    --med-blue: #58B6C0;
+    --lt-blue: #78BDC1;
+
+    /* Other swatches for text & accents */
+    --white: #fff;
+    --lt-gray: #eaeaea;
+    --med-gray: #555;
+    --dk-gray: #222;
+
+    /* Shadows for Elements that are Not Square */
+    --filter-shadow-sm: drop-shadow(-3px 3px 7px var(--med-gray));
+    --filter-shadow-lg: drop-shadow(-6px 6px 10px var(--med-gray));
+
+    /* Adobe Font Family with Fallbacks */
+    --fonts: "halogen-flare", Tahoma, sans-serif;
+}
+
+/* ---------- Body Styles ---------- */
+/* TO DO */
+
+/* This overlays a semi-transparent light gray color over our svg background to lighten it, you do not need to edit this code */
+body::after{
+    content: "";
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: darkgrey;
+    line-height: 1.5;
+    font-family: --;
+    /* ABOVE what ??? "Set the font family to the --fonts from the root" */
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    background-color: var(--lt-gray);
+    background-image: url(topography.svg);
+    filter: opacity(30%);
+    z-index: -1;
+}
+
+/* ---------- Header Styles ---------- */
+/* TO DO */
+
+/* ---------- Logo Link Styles ---------- */
+/* TO DO */
+
+/* ---------- Hover Styles for Logo Image and Link ---------- */
+header > a:hover{
+    background-color: var(--cream);
+    padding: 2rem 1rem 5rem;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+header a:hover img{
+    filter: var(--filter-shadow-sm);
+}
+
+/* ---------- Image Styles ---------- */
+/* TO DO */
+
+/* Logo Image Styles  */
+header img{
+    filter: var(--filter-shadow-lg);
+    margin: 0;
+}
+
+/* ---------- H1 Styles ---------- */
+/* TO DO */
+
+/* ---------- Link Styles ---------- */
+/* TO DO */
+
+/* ---------- Navigation Styles ---------- */
+/* TO DO */
+
+/* ---------- Nav Ul Styles --------- */
+/* TO DO */
+
+/* ---------- Nav Li Styles --------- */
+/* TO DO */
+
+/* ---------- Nav a Styles --------- */
+/* TO DO */
+
+/* ---------- Navigation a Hover Styles ---------- */
+nav a:hover{
+    background-color: var(--dk-blue);
+    filter: var(--filter-shadow-sm);
+}
+
+/* ---------- Link Hover Styles ---------- */
+/* TO DO */
+
+/* ---------- Main Styles ---------- */
+/* TO DO */
+
+/* ---------- Section Styles ---------- */
+/* TO DO */
+
+/* ---------- H2 Styles ---------- */
+/* TO DO */
+
+/* ---------- Paragraph Styles ---------- */
+/* TO DO */
+
+/* For the paragraph under the h2 in the main */
+/* TO DO */
+
+/* ---------- H3 Styles ---------- */
+/* TO DO */
+
+/* ---------- About Section Styles ---------- */
+/* TO DO */
+
+/* For the Book Services Link/button styles */
+/* TO DO */
+
+/* For the hover styles on the book services btn/link */
+#about a:hover{
+    background: var(--dk-blue);
+    filter: var(--filter-shadow-sm);
+}
+
+/* About Image Styles */
+/* TO DO */
+
+/* ---------- Services Section Styles ---------- */
+/* TO DO */
+
+/* For the sections inside Services */
+/* TO DO */
+
+/* ---------- H4 Styles ---------- */
+/* TO DO */
+
+/* For the Paragraphs with prices in the services sections */
+#services section p:last-of-type{
+    /* TO DO */
+}
+
+/* ---------- Location Section Styles ---------- */
+/* TO DO */
+
+/* Location Image Styles */
+/* TO DO */
+
+/* For the div inside of the location section */
+/* TO DO */
+
+/* For the address text */
+/* TO DO */
+
+/* For the links in the address tag */
+/* TO DO */
+
+/* Location map image styles */
+#location div img{
+    /* TO DO */
+}
+
+/* ---------- Footer Styles ---------- */
+/* TO DO */
